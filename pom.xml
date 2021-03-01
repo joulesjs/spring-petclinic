@@ -119,6 +119,11 @@
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
+    <dependency>
+      <groupId>io.github.joulesjs</groupId>
+      <artifactId>spring-boot-starter-joulesjs</artifactId>
+      <version>main-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -277,6 +282,10 @@
   </licenses>
 
   <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
     <repository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
